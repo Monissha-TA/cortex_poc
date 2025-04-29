@@ -20,8 +20,8 @@ import yaml
 st.set_page_config(page_title="Snowflake Platform Monitoring", layout="wide")
 st.title("Snowflake Platform Monitoring")
 
-if 'session' not in st.session_state:
-    st.session_state['session'] = get_active_session()
+# if 'session' not in st.session_state:
+#     st.session_state['session'] = get_active_session()
 
 SEMANTIC_MODEL_PATH = "SNOWFLAKE_MONITORING.PUBLIC.SNOWFLAKE_MONITORING_APP_STAGE/result_analysis_semantic_model.yaml"
 API_ENDPOINT = "/api/v2/cortex/analyst/message"
