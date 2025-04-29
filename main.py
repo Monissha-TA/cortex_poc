@@ -23,7 +23,7 @@ st.title("Snowflake Platform Monitoring")
 if 'session' not in st.session_state:
     st.session_state['session'] = get_active_session()
 
-SEMANTIC_MODEL_PATH = "SNOWFLAKE_MONITORING.PUBLIC.SNOWFLAKE_MONITORING_APP_STAGE/result_semantic_model/result_analysis_semantic_model.yaml"
+SEMANTIC_MODEL_PATH = "SNOWFLAKE_MONITORING.PUBLIC.SNOWFLAKE_MONITORING_APP_STAGE/result_analysis_semantic_model.yaml"
 API_ENDPOINT = "/api/v2/cortex/analyst/message"
 API_TIMEOUT = 50000
 
